@@ -89,7 +89,7 @@ QUIZ-NARUTO/
 1. **Baixe ou clone o projeto**
 
 ```bash
-git clone https://github.com/seu-usuario/quiz-naruto.git
+git clone https://github.com/caioxdev/quiz-naruto.git
 ```
 
 2. **Abra o arquivo** `index.html` no navegador
