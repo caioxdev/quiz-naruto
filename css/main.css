@@ -1,0 +1,12 @@
+/* GLOBAL - Variáveis, reset e fonts */
+@import url(./base/global.css);
+
+/* Components */
+@import url(./componentes/buttons.css);
+@import url(./componentes/cards.css); /* ainda falta os components */
+/* ... */
+
+/* Pages */
+@import url(./pages/inicio.css);
+@import url(./pages/quiz.css);
+@import url(./pages/resultado.css)
