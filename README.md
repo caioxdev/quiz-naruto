@@ -102,22 +102,22 @@ git clone https://github.com/caioxdev/quiz-naruto.git
 
 ### 🌙 Modo Escuro
 
-<img width="1728" alt="Início - Modo Escuro" src="https://github.com/user-attachments/assets/5f3b92c8-08bc-4493-9b0f-2513db0abf44" />
-<img width="1728" alt="Questionário - Modo Escuro" src="https://github.com/user-attachments/assets/9ad764ea-626b-44aa-a576-d1a14f046cbf" />
-<img width="1728" alt="Resultado - Modo Escuro" src="https://github.com/user-attachments/assets/dd936c70-94eb-43da-8a6c-cae23f758497" />
+<img width="1728" height="1426" alt="RESULTADO - ESCURO - NARUTO" src="https://github.com/user-attachments/assets/b4762641-0636-4863-be9d-a5755f0f44ad" />
+<img width="1728" height="1109" alt="QUESTIONARIO - ESCURO" src="https://github.com/user-attachments/assets/8b698de7-acad-4a56-a130-c4b5919e0340" />
+<img width="1728" height="1934" alt="INICIO - ESCURO" src="https://github.com/user-attachments/assets/1b28648b-0743-4224-bb59-a600e6cb56c6" />
 
 #### Card selecionado — efeito neumorfismo
 
-<img width="1728" alt="Questionário - Card Clicado - Modo Escuro" src="https://github.com/user-attachments/assets/11c99429-ff08-48f3-b19e-56c20f1749b2" />
+<img width="1728" height="1109" alt="QUESTIONARIO -  ESCURO - CARD CLICADO" src="https://github.com/user-attachments/assets/b298b8d9-0936-4074-a92b-55df8f32dd20" />
 
 ---
 
 ### ☀️ Modo Claro
 
-<img width="1728" alt="Início - Modo Claro" src="https://github.com/user-attachments/assets/bd8d845c-c5ab-42f7-8275-f9095df6eea2" />
-<img width="1728" alt="Questionário - Modo Claro" src="https://github.com/user-attachments/assets/300d2ce0-9226-43bb-a1b0-452a59c4508a" />
-<img width="1728" alt="Resultado - Modo Claro" src="https://github.com/user-attachments/assets/155d1889-3d34-488c-b589-909a242d6ae2" />
+<img width="1728" height="1934" alt="INICIO - CLARO" src="https://github.com/user-attachments/assets/3f02669c-d968-4e0e-a3a6-53aee091aaca" />
+<img width="1728" height="1109" alt="QUESTIONARIO - CLARO" src="https://github.com/user-attachments/assets/cdec1b40-ae25-4634-9390-b469a971fa0a" />
+<img width="1728" height="1426" alt="RESULTADO - CLARO - NARUTO" src="https://github.com/user-attachments/assets/1ac167f9-0bf0-4307-98a5-54a4be07dc61" />
 
 #### Card selecionado — efeito neumorfismo
 
-<img width="1728" alt="Questionário - Card Clicado - Modo Claro" src="https://github.com/user-attachments/assets/6eb2657f-243f-4ba0-a983-e24a3cb5e790" />
+<img width="1728" height="1109" alt="QUESTIONARIO - CLARO - CARD CLICADO" src="https://github.com/user-attachments/assets/0a00548f-c36e-4e13-bce7-8fdec6626b59" />
