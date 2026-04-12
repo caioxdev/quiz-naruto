@@ -3,7 +3,8 @@
 
 /* Components */
 @import url(./componentes/buttons.css);
-@import url(./componentes/cards.css); /* ainda falta os components */
+@import url(./componentes/cards.css);
+@import url(./componentes/header.css); /* ainda falta os components */
 /* ... */
 
 /* Pages */

@@ -1,3 +1,16 @@
 @import url(./fonts.css);
 @import url(./reset.css);
 @import url(./variables.css);
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--bg-primary);
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

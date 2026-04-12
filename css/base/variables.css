@@ -1,0 +1,71 @@
+:root {
+  /* BACKGROUND */
+  --bg-primary: #F5F1E8;
+
+  /* TEXTOS */
+  --text-primary: #5F5A72;
+  --text-secondary: #3C2F00;
+  --text-tertiary: #1F1B2E;
+  --text-quaternary: #FDA30D;
+
+  /* CARDS */
+  --card-primary: #FFFFFF;
+  --card-secondary: rgba(255, 255, 255, 0.51);
+  --card-questionario: #EEE;
+
+  /* ICONES */
+  /* CARDS - INICIO */
+  --icon-1-bg: rgba(233, 195, 73, 0.10);
+  --icon-1-color: #E9C349;
+
+  --icon-2-bg: rgba(221, 183, 255, 0.15);
+  --icon-2-color: #DDB7FF;
+
+  --icon-3-bg: rgba(251, 184, 132, 0.20);
+  --icon-3-color: #FBB884;
+
+  /* CARDS - QUESTIONARIO */
+  --icon-4-bg: #EEE;
+  --icon-4-color: #E9C349;
+
+  /* BUTTONS */
+  --button-1-bg: linear-gradient(90deg, #FDA30D -0.83%, #FB8D0A 41.22%, #FA1005 154.6%);
+  --button-2-bg: linear-gradient(92deg, #E9C349 33.52%, #B8961C 75.68%);
+  --button-3-bg: #222237;
+}
+
+.dark {
+  /* BACKGROUND */
+  --bg-primary: #111125;
+
+  /* TEXTOS */
+  --text-primary: #E2E0FC;
+  --text-secondary: #FFFFFF;
+  --text-tertiary: #DDB7FF;
+  --text-quaternary: #CEC3D3;
+
+  /* CARDS */
+  --card-primary: #1A1A2E;
+  --card-secondary: #28283D;
+  --card-questionario: #28283D;
+
+  /* ICONES */
+  /* CARDS - INICIO */
+  --icon-1-bg: rgba(233, 195, 73, 0.10);
+  --icon-1-color: #E9C349;
+
+  --icon-2-bg: #3A3650;
+  --icon-2-color: #DDB7FF;
+
+  --icon-3-bg: #302936;
+  --icon-3-color: #FBB884;
+
+  /* CARDS - QUESTIONARIO */
+  --icon-4-bg: #28283D;
+  --icon-4-color: #E9C349;
+
+  /* BUTTONS */
+  --button-1-bg: linear-gradient(90deg, #FDA30D -0.83%, #FB8D0A 41.22%, #FA1005 154.6%);
+  --button-2-bg: linear-gradient(92deg, #E9C349 33.52%, #B8961C 75.68%);
+  --button-3-bg: #222237;
+}
