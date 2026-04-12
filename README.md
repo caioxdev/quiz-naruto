@@ -16,6 +16,14 @@ O projeto foi desenvolvido utilizando HTML, CSS e JavaScript, com foco em organi
 
 ---
 
+## 👥 Integrantes
+- Ádam Amarildo Guedes Carneiro
+- Arthur Martins Fonseca Dias
+- Caio Seabra de Queiroz
+- Miguel Oliveria Silva
+
+---
+
 ## 🛠️ Tecnologias
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
