@@ -4,7 +4,8 @@
 /* Components */
 @import url(./componentes/buttons.css);
 @import url(./componentes/cards.css);
-@import url(./componentes/header.css); /* ainda falta os components */
+@import url(./componentes/header.css);
+@import url(./componentes/toggle.css);
 /* ... */
 
 /* Pages */
