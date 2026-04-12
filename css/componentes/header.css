@@ -5,8 +5,12 @@ header {
 
   padding: 1.7rem 3rem;
   min-height: 82px;
-  background-color: #EAE4D8;
+  background-color: var(--bg-secondary);
   box-shadow: 0 9px 40px 0 rgba(0, 0, 0, 0.15);
+}
+
+body.dark header {
+  box-shadow: 0 15px 40px 15px rgba(0, 0, 0, 0.33);
 }
 
 h1 {

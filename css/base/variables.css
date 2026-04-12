@@ -1,6 +1,7 @@
 :root {
   /* BACKGROUND */
   --bg-primary: #F5F1E8;
+  --bg-secondary: #EAE4D8;
 
   /* TEXTOS */
   --text-primary: #5F5A72;
@@ -50,12 +51,13 @@
 .dark {
   /* BACKGROUND */
   --bg-primary: #111125;
+  --bg-secondary: #111125
 
   /* TEXTOS */
   --text-primary: #E2E0FC;
-  --text-secondary: #FFFFFF;
+  --text-secondary: #E2E0FC;
   --text-tertiary: #DDB7FF;
-  --text-quaternary: #CEC3D3;
+  --text-quaternary: #FDA30D;
 
   /* CARDS */
   --card-primary: #1A1A2E;
