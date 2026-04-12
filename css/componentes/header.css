@@ -9,6 +9,13 @@ header {
   box-shadow: 0 9px 40px 0 rgba(0, 0, 0, 0.15);
 }
 
+h1 {
+  color: var(--text-quaternary);
+  font-family: 'Liberation Serif';
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
 nav {
   justify-self: center;
 }
@@ -20,9 +27,15 @@ ul {
   gap: 45px;
 }
 
+li.active {
+  color: var(--text-quaternary);
+}
+
 li {
   display: flex;
   align-items: center;
+  color: var(--text-secondary);
+  font-size: 1.2rem;
 }
 
 .perfil {
