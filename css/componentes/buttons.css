@@ -1,0 +1,18 @@
+.btn-iniciar {
+  width: 244px;
+  height: 68px;
+  border-radius: 12px;
+  border: 1px solid #000;
+  background: var(--button-1-bg);
+
+  color: var(--button-1-color);
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 155%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+}

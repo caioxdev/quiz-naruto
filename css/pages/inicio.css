@@ -1,0 +1,116 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#tag {
+  width: 147px;
+  height: 31px;
+  border-radius: 15.5px;
+  border: 1px solid rgba(31, 27, 46, 0.20);
+  background: rgba(31, 27, 46, 0.10);
+  display: flex;
+  margin: 8rem 0 4rem;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-tertiary);
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+
+body.dark #tag {
+  border: 1px solid rgba(221, 183, 255, 0.20);
+  background: rgba(221, 183, 255, 0.10);
+}
+
+#text-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 689px;
+  height: 250px;
+  gap: 22px;
+}
+
+#text-top h2 {
+  text-align: center;
+  color: var(--text-tertiary);
+  font-family: 'Noto Serif', sans-serif;
+  font-weight: 400;
+  font-size: 6rem;
+  position: relative;
+  z-index: 2;
+}
+
+body.dark #text-top h2 {
+  color: #E2E0FC;
+}
+
+#text-top h2::before {
+  content: "Descubra seu Caminho Ninja";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  color: var(--text-tertiary);
+  filter: blur(18px);
+  opacity: 0.6;
+  text-align: center;
+}
+
+body.dark #text-top h2::before {
+  color: #E2E0FC;
+}
+
+#text-top h2 span {
+  color: var(--text-quaternary);
+  text-shadow:
+    0 0 10px rgba(253, 163, 13, 0.6),
+    0 0 25px rgba(253, 163, 13, 0.4),
+    0 0 45px rgba(253, 163, 13, 0.25);
+}
+
+#text-top p {
+  color: var(--text-primary);
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 140%;
+}
+
+body.dark #text-top p {
+  color: #CEC3D3;
+}
+
+.quadro-logo {
+  margin-top: 6rem;
+}
+
+.quadro-logo img {
+  display: block;
+}
+
+/* CARDS */
+.cards {
+  display: flex;
+  gap: 35px;
+}
+
+#card-1,
+#card-3 {
+  width: 362px;
+  height: 275px;
+  background-color: var(--card-primary);
+}
+
+#card-2{
+  width: 400px;
+  height: 300px;
+  background-color: var(--card-secondary);
+}

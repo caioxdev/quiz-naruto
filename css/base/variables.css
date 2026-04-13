@@ -31,6 +31,7 @@
 
   /* BUTTONS */
   --button-1-bg: linear-gradient(90deg, #FDA30D -0.83%, #FB8D0A 41.22%, #FA1005 154.6%);
+  --button-1-color: #3C2F00;
   --button-2-bg: linear-gradient(92deg, #E9C349 33.52%, #B8961C 75.68%);
   --button-3-bg: #222237;
 
@@ -81,6 +82,7 @@
 
   /* BUTTONS */
   --button-1-bg: linear-gradient(90deg, #FDA30D -0.83%, #FB8D0A 41.22%, #FA1005 154.6%);
+  --button-1-color: #3C2F00;
   --button-2-bg: linear-gradient(92deg, #E9C349 33.52%, #B8961C 75.68%);
   --button-3-bg: #222237;
 }
