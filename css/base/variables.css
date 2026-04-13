@@ -25,9 +25,13 @@
   --icon-3-bg: rgba(251, 184, 132, 0.20);
   --icon-3-color: #FBB884;
 
+  --text-card--primary: #1F1B2E;
+  --text-card-secondary: #5F5A72;
+
   /* CARDS - QUESTIONARIO */
   --icon-4-bg: #EEE;
   --icon-4-color: #E9C349;
+
 
   /* BUTTONS */
   --button-1-bg: linear-gradient(90deg, #FDA30D -0.83%, #FB8D0A 41.22%, #FA1005 154.6%);
@@ -76,9 +80,13 @@
   --icon-3-bg: #302936;
   --icon-3-color: #FBB884;
 
+  --text-card-primary: #E2E0FC;
+  --text-card-secondary: #CEC3D3;
+
   /* CARDS - QUESTIONARIO */
   --icon-4-bg: #28283D;
   --icon-4-color: #E9C349;
+
 
   /* BUTTONS */
   --button-1-bg: linear-gradient(90deg, #FDA30D -0.83%, #FB8D0A 41.22%, #FA1005 154.6%);

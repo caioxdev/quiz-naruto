@@ -100,6 +100,7 @@ body.dark #text-top p {
 .cards {
   display: flex;
   gap: 35px;
+  margin-top: 4rem;
 }
 
 #card-1,
@@ -109,7 +110,62 @@ body.dark #text-top p {
   background-color: var(--card-primary);
 }
 
-#card-2{
+#card-1,
+#card-2,
+#card-3 {
+  display: flex;
+  flex-direction: column;
+  border-radius: 32px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  padding: 2.5rem 3.2rem 4.4rem 2.25rem;
+}
+
+#card-1 span,
+#card-2 span,
+#card-3 span {
+  width: 48px;
+  aspect-ratio: 1 / 1;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#card-1 span {
+  background-color: var(--icon-1-bg);
+}
+
+#card-2 span {
+  background-color: var(--icon-2-bg);
+}
+
+#card-3 span {
+  background-color: var(--icon-3-bg);
+}
+
+#card-1 .titulo-card,
+#card-2 .titulo-card,
+#card-3 .titulo-card {
+  color: var(--text-card-primary);
+  font-family: 'Noto Serif', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 133%;
+  margin: 22px 0;
+}
+
+#card-1 p,
+#card-2 p,
+#card-3 p {
+  color: var(--text-card-secondary);
+  font-family: 'Noto Serif', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 162%;
+  width: 300px;
+}
+
+#card-2 {
   width: 400px;
   height: 300px;
   background-color: var(--card-secondary);
