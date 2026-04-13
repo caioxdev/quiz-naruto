@@ -16,6 +16,8 @@ O projeto foi desenvolvido utilizando HTML, CSS e JavaScript, com foco em organi
 
 ---
 
+https://caioxdev.github.io/quiz-naruto/
+
 ## 👥 Integrantes
 - Ádam Amarildo Guedes Carneiro
 - Arthur Martins Fonseca Dias
