@@ -42,11 +42,11 @@ ul {
   gap: 45px;
 }
 
-li.active {
+li.item-nav.active {
   color: var(--text-quaternary);
 }
 
-li {
+li.item-nav {
   display: flex;
   align-items: center;
   color: var(--text-secondary);
