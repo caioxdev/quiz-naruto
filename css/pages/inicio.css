@@ -99,6 +99,8 @@ body.dark #text-top p {
 /* CARDS */
 .cards {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 35px;
   margin-top: 4rem;
 }
