@@ -52,6 +52,8 @@
   --night-bg-color: #272a30;
   --cloud-color: #fffdf2;
   --star-color: #fffdf2;
+
+  --header-height: 82px;
 }
 
 .dark {

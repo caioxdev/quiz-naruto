@@ -1,0 +1,56 @@
+.container-progresso {
+  display: flex;
+  flex-direction: column;
+  width: 673px;
+  margin: 2rem 0;
+}
+
+.top-progresso {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.top-progresso h2,
+.top-progresso p {
+  color: var(--text-tertiary);
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 133%;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.top-progresso span {
+  color: #FDA30D;;
+}
+
+.linha-fundo {
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #333348;
+}
+
+.barra-progresso {
+  width: 10%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #FDA30D;
+  position: relative;
+}
+
+.barra-progresso::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 9px;
+  height: 4px;
+  background-color: #ffdf53;
+  box-shadow: 0 0 25px 0 #E9C349;
+  filter: blur(3px);
+  display: flex;
+}
