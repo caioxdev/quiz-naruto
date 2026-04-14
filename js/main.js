@@ -17,7 +17,7 @@ if (botao) {
   botao.addEventListener('click', (event) => {
     event.preventDefault();
     activeNav();
-    window.location.href = './pages/quiz.html';
+    window.location.href = 'pages/quiz.html';
   });
 }
 
