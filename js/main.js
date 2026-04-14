@@ -9,7 +9,9 @@ function initAll() {
   initThemeSwitcher();
   initHeader();
   restaurarActive();
-  initQuiz();
+
+  if (document.getElementById('btn-proxima-pergunta'))
+    initQuiz();
 }
 
 initAll();
