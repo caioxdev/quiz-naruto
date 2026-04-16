@@ -1,3 +1,5 @@
+import { Personagem } from './personagem.js';
+
 let button, numeroQuestao, barraProgresso;
 const totalQuestoes = 10;
 let questaoAtual = 1;
