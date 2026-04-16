@@ -54,3 +54,108 @@
   filter: blur(3px);
   display: flex;
 }
+
+/* PERGUNTA */
+
+#pergunta {
+  width: 690px;
+}
+
+#pergunta h2 {
+  width: 100%;
+  text-align: center;
+  color: var(--text-tertiary);
+  font-family: 'Noto Serif', sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 1.5px;
+}
+
+body.dark #pergunta h2 {
+  color: #fff;
+}
+
+/* CARDS */
+#container-cards-respostas {
+  display: flex;
+  margin: 70px 0;
+  gap: 45px;
+}
+
+.card-resposta,
+.fundo-icone {
+  box-shadow: -20px -20px 40px 0 #FFF,
+              20px 20px 40px 0 rgba(0, 0, 0, 0.15);
+}
+
+body.dark .card-resposta,
+body.dark .fundo-icone {
+  box-shadow: -6px -6px 20px 0 rgba(58, 58, 87, 0.80),
+              6px 6px 20px 0 rgba(17, 17, 37, 0.85);
+}
+
+.card-resposta {
+  width: 293px;
+  height: 276px;
+  border-radius: 12px;
+  background-color: var(--card-quiz);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.card-resposta .fundo-icone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  aspect-ratio: 1 / 1;
+  border-radius: 12px;
+  background-color: var(--card-quiz);
+  margin-top: 65px;
+}
+
+.card-resposta .texto-resposta {
+  color: var(--text-tertiary);
+  font-family: 'Noto Serif', sans-serif;
+  max-width: 220px;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 140%;
+  text-align: center;
+  margin-top: 17px;
+}
+
+body.dark .card-resposta .texto-resposta {
+  color: #E2E0FC;
+}
+
+
+/* BTN-PROXIMA */
+#btn-proxima-pergunta {
+  width: 167px;
+  height: 60px;
+  border-radius: 12px;
+  background: var(--button-2-bg);
+  border: none;
+}
+
+/* BTN-ABANDONAR-JORNADA */
+#btn-abandonar-jornada {
+  width: 168px;
+  height: 26px;
+  border-radius: 12px;
+  border: 1px solid var(--text-tertiary);
+  background-color: transparent;
+
+  color: var(--text-tertiary);
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 400;
+  line-height: 133%;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  margin-top: 22px;
+}

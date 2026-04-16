@@ -64,16 +64,44 @@
         </div>
       </header>
       <main>
-          <section class="container-progresso">
-            <div class="top-progresso">
-              <h2>progresso</h2>
-              <p><span id="numero-questao">01</span> / <strong>10</strong></p>
+        <section class="container-progresso">
+          <div class="top-progresso">
+            <h2>progresso</h2>
+            <p><span id="numero-questao">01</span> / <strong>10</strong></p>
+          </div>
+          <div class="linha-fundo">
+            <div class="barra-progresso"></div>
+          </div>
+        </section>
+        <section id="pergunta">
+          <h2>
+            Diante de uma missão de rank S, qual seria sua estratégia principal
+          </h2>
+        </section>
+        <section id="container-respostas">
+          <div id="container-cards-respostas">
+            <div class="card-resposta">
+              <span class="fundo-icone">
+                <img src="../assets/icons/olho-icone.svg" alt="Olho" />
+              </span>
+              <p class="texto-resposta">Uso de genjutsu e furtividade</p>
             </div>
-            <div class="linha-fundo">
-              <div class="barra-progresso"></div>
+            <div class="card-resposta">
+              <span class="fundo-icone">
+                <img src="../assets/icons/cabeca-icone.svg" alt="Cabeça" />
+              </span>
+              <p class="texto-resposta">Planejamento tático e análise de fraquezas</p>
             </div>
-          </section>
-          <button id="btn-proxima-pergunta">próxima</button>
+            <div class="card-resposta">
+              <span class="fundo-icone">
+                <img src="../assets/icons/raio-icone.svg" alt="Raio" />
+              </span>
+              <p class="texto-resposta">Ataque frontal com força total</p>
+            </div>
+          </div>
+        </section>
+        <button id="btn-proxima-pergunta">Próxima</button>
+        <button id="btn-abandonar-jornada">abandonar jornada</button>
       </main>
       <footer>
         <div class="left-footer">
