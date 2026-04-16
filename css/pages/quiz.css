@@ -85,14 +85,37 @@ body.dark #pergunta h2 {
 
 .card-resposta,
 .fundo-icone {
-  box-shadow: -20px -20px 40px 0 #FFF,
-              20px 20px 40px 0 rgba(0, 0, 0, 0.15);
+  box-shadow:
+    -20px -20px 40px 0 #FFF,
+    20px 20px 40px 0 rgba(0, 0, 0, 0.15);
+  transition:  all .2s ease ;
+}
+
+.card-resposta:hover {
+  transform: scale(1.05);
+}
+
+.card-resposta:hover .fundo-icone {
+  transform: scale(1.15);
+}
+
+.card-resposta.selecionado .fundo-icone {
+  box-shadow:
+    -4px -4px 10px 0 #FFF inset,
+    4px 4px 10px 0 rgba(0, 0, 0, 0.15) inset;
+}
+
+body.dark .card-resposta.selecionado .fundo-icone {
+  box-shadow:
+    -4px -4px 10px 0 rgba(58, 58, 87, 0.80) inset,
+    4px 4px 10px 0 rgba(17, 17, 37, 0.85) inset;
 }
 
 body.dark .card-resposta,
 body.dark .fundo-icone {
-  box-shadow: -6px -6px 20px 0 rgba(58, 58, 87, 0.80),
-              6px 6px 20px 0 rgba(17, 17, 37, 0.85);
+  box-shadow:
+    -6px -6px 20px 0 rgba(58, 58, 87, 0.80),
+    6px 6px 20px 0 rgba(17, 17, 37, 0.85);
 }
 
 .card-resposta {
@@ -123,8 +146,8 @@ body.dark .fundo-icone {
   max-width: 220px;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 140%;
   text-align: center;
+  line-height: 140%;
   margin-top: 17px;
 }
 
