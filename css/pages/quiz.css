@@ -163,6 +163,7 @@ body.dark .card-resposta .texto-resposta {
   border-radius: 12px;
   background: var(--button-2-bg);
   border: none;
+  cursor: pointer;
 }
 
 /* BTN-ABANDONAR-JORNADA */
@@ -171,8 +172,8 @@ body.dark .card-resposta .texto-resposta {
   height: 26px;
   border-radius: 12px;
   border: 1px solid var(--text-tertiary);
+  cursor: pointer;
   background-color: transparent;
-
   color: var(--text-tertiary);
   font-family: 'Manrope', sans-serif;
   font-size: 0.65rem;

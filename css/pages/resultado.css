@@ -1,0 +1,157 @@
+#topo-resultado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 37px 0;
+}
+
+#topo-resultado p {
+  color: var(--text-tertiary);
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 133%;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+
+#topo-resultado h2 {
+  color: var(--text-tertiary);
+  font-family: 'Noto Serif', sans-serif;
+  font-size: 3rem;
+  margin-top: 19px;
+  position: relative;
+}
+
+
+#topo-resultado h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  top: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 121px;
+  height: 6px;
+  background-color: #E9C349;
+  border-radius: 50%;
+}
+
+body.dark #topo-resultado h2 {
+  color: #fff;
+}
+
+#conteudo-principal {
+  display: flex;
+  max-width: 1100px;
+  width: 100%;
+  gap: 64px;
+}
+
+#conteudo-esq {
+  max-width: 624px;
+  width: 100%;
+  height: 700px;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #E97B58 25.96%, #FFF 88.85%);
+  box-shadow: 9px -9px 100px 0 rgba(255, 255, 255, 0.25);
+}
+
+#conteudo-dir {
+  display: flex;
+  flex-direction: column;
+}
+
+#conteudo-dir h3{
+  color: #E9C349;
+  font-family: 'Noto Serif', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 111%;
+  letter-spacing: 0.9px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 38px;
+}
+
+#conteudo-dir #descricao {
+  color: var(--text-primary);
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 162%;
+}
+
+#conteudo-dir #citacao {
+  color: var(--text-citacao);
+  font-family: 'Manrope', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 162%;
+  padding-left: 20px;
+  margin: 35px 0;
+  position: relative;
+}
+
+#conteudo-dir #citacao::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  max-width: 2px;
+  width: 100%;
+  max-height: 59px;
+  height: 100%;
+  background: #E9C349;
+  display: inline-block;
+}
+
+#btn-tentar-novamente,
+#btn-compartilhar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Manrope', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+}
+.conteudo-btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 240px;
+  gap: 30px;
+}
+
+.icone {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.icone img {
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
+#btn-tentar-novamente {
+  color: #3C2F00;
+  background: var(--button-2-bg);
+  margin-bottom: 20px;
+}
+
+#btn-compartilhar {
+  color: #E2E0FC;
+  background-color: var(--button-3-bg);
+}
