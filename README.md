@@ -16,8 +16,6 @@ O projeto foi desenvolvido utilizando HTML, CSS e JavaScript, com foco em organi
 
 ---
 
-https://caioxdev.github.io/quiz-naruto/
-
 ## 👥 Integrantes
 - Ádam Amarildo Guedes Carneiro
 - Arthur Martins Fonseca Dias
@@ -66,15 +64,18 @@ QUIZ-NARUTO/
 │
 ├── css/
 │   ├── base/
-│   │   ├── reset.css
-│   │   ├── variables.css
 │   │   ├── fonts.css
-│   │   └── global.css
+│   │   ├── global.css
+│   │   ├── reset.css
+│   │   ├── swup.css
+│   │   └── variables.css
 │   │
 │   ├── componentes/
 │   │   ├── buttons.css
 │   │   ├── cards.css
-│   │   └── effects.css
+│   │   ├── footer.css
+│   │   ├── header.css
+│   │   └── toggle.css
 │   │
 │   ├── pages/
 │   │   ├── inicio.css
@@ -84,10 +85,14 @@ QUIZ-NARUTO/
 │   └── main.css
 │
 ├── js/
-│   ├── personagem.js
+│   ├── header.js
 │   ├── jogo.js
-│   ├── swup.js
-│   └── main.js
+│   ├── main.js
+│   ├── modo-claro-escuro.js
+│   ├── perguntas.js
+│   ├── personagem.js
+│   ├── resultado.js
+│   └── swup.js
 │
 └── README.md
 ```
@@ -106,6 +111,12 @@ git clone https://github.com/caioxdev/quiz-naruto.git
 
 > Nenhuma instalação ou dependência necessária — é só abrir e jogar! 🎮
 
+**Ou**
+
+3. **Pelo GitHub Pages**
+<a href="https://caioxdev.github.io/quiz-naruto/" target="_blank">
+  <img src="https://img.shields.io/badge/Ver%20Projeto-Online-orange?style=for-the-badge">
+</a>
 ---
 
 ## 🖼 Imagens
