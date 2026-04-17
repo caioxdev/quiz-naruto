@@ -8,6 +8,17 @@ export function initResultado() {
 
   const personagem = JSON.parse(dados);
 
+  const cores = {
+    naruto: 'linear-gradient(180deg, #E97B58 25.96%, #FFF 88.85%)',
+    sasuke: 'linear-gradient(180deg, #7D7F9C 25.96%, #FFF 88.85%)',
+    jiraya: 'linear-gradient(180deg, #993A41 25.96%, #FFF 88.85%)',
+    itachi: 'linear-gradient(180deg, #7D3A53 25.96%, #FFF 88.85%)',
+    shikamaru: 'linear-gradient(180deg, #839271 25.96%, #FFF 88.85%)'
+  };
+
+  const conteudoEsq = document.getElementById('conteudo-esq');
+  conteudoEsq.style.background = cores[personagem.id];
+
   const imgPersonagem = document.getElementById('img-personagem');
   const nomePersonagem = document.getElementById('nome-personagem');
   const descricao = document.getElementById('descricao');
