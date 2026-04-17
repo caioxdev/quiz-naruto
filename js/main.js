@@ -4,7 +4,7 @@ import { initHeader, restaurarActive } from "./header.js";
 import { initQuiz } from './jogo.js';
 import { initResultado } from './resultado.js';
 
-const swup = iniciarSwup();
+export const swup = iniciarSwup();
 
 function initAll() {
   initThemeSwitcher();
