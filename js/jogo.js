@@ -35,10 +35,16 @@ function carregarPergunta(index) {
   });
 }
 
+function registrarResposta() {
+  for (const [id, pontos] of Object.entries(respostaSelecionada.pontos)) {
+    personagens[id].adicionarPonto(pontos);
+  }
+}
+
 function calcularResultado() {
-  return Object.values(personagem).reduce((melhor, atual) => {
-    (atual.pontuacao > melhor.pontuacao) ? atual : melhor;
-  });
+  return Object.values(personagens).reduce((melhor, atual) =>
+    (atual.pontuacao > melhor.pontuacao) ? atual : melhor
+  );
 }
 
 function resetarJogo() {
@@ -49,6 +55,8 @@ function proximaPergunta() {
   if (!respostaSelecionada)
     return;
 
+  registrarResposta();
+
   if (questaoAtual < totalQuestoes - 1) {
     questaoAtual++;
     atualizarBarraNumeroQuestao(questaoAtual);
@@ -56,7 +64,7 @@ function proximaPergunta() {
   } else {
     const resultado = calcularResultado();
     sessionStorage.setItem('personagem', JSON.stringify(resultado));
-    window.location.href('/pages/resultado.html');
+    window.location.href = './resultado.html';
   }
 }
 

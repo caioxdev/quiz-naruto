@@ -85,6 +85,7 @@ body.dark #pergunta h2 {
 
 .card-resposta,
 .fundo-icone {
+  cursor: pointer;
   box-shadow:
     -20px -20px 40px 0 #FFF,
     20px 20px 40px 0 rgba(0, 0, 0, 0.15);
@@ -99,16 +100,30 @@ body.dark #pergunta h2 {
   transform: scale(1.15);
 }
 
+.card-resposta.selecionado {
+  box-shadow:
+    -6px -6px 12px #fff inset,
+    6px 6px 12px rgba(0, 0, 0, 0.15) inset;
+}
+
+body.dark .card-resposta.selecionado {
+  box-shadow:
+    -6px -6px 18px 0 rgba(58, 58, 87, 0.80) inset,
+    6px 6px 18px 0 rgba(17, 17, 37, 0.85) inset
+}
+
 .card-resposta.selecionado .fundo-icone {
   box-shadow:
-    -4px -4px 10px 0 #FFF inset,
-    4px 4px 10px 0 rgba(0, 0, 0, 0.15) inset;
+    -20px -20px 40px 0 #FFF inset,
+    -20px -20px 40px 0 #FFF,
+    20px 20px 40px 0 rgba(0, 0, 0, 0.15) inset,
+    20px 20px 40px 0 rgba(0, 0, 0, 0.15);
 }
 
 body.dark .card-resposta.selecionado .fundo-icone {
   box-shadow:
-    -4px -4px 10px 0 rgba(58, 58, 87, 0.80) inset,
-    4px 4px 10px 0 rgba(17, 17, 37, 0.85) inset;
+    -6px -6px 18px 0 rgba(58, 58, 87, 0.80) inset,
+    6px 6px 18px 0 rgba(17, 17, 37, 0.85) inset
 }
 
 body.dark .card-resposta,

@@ -61,7 +61,7 @@ body.dark #topo-resultado h2 {
   box-shadow: 9px -9px 100px 0 rgba(255, 255, 255, 0.25);
 }
 
-#conteudo-esq img {
+#conteudo-esq #img-personagem {
   width: 560px;
   height: 701px;
   display: block;
@@ -72,7 +72,7 @@ body.dark #topo-resultado h2 {
   flex-direction: column;
 }
 
-#conteudo-dir h3{
+#conteudo-dir #nome-personagem {
   color: #E9C349;
   font-family: 'Noto Serif', sans-serif;
   font-size: 3rem;
@@ -146,8 +146,8 @@ body.dark #topo-resultado h2 {
   line-height: 150%;
 }
 
-#card-chakra p,
-#card-afinidade p {
+#card-chakra #chakra-valor,
+#card-afinidade #afinidade-valor {
   color: #E2E0FC;
   font-family: 'Noto Serif', sans-serif;
   font-size: 1rem;
