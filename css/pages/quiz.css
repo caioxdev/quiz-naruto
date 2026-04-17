@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   width: 673px;
-  margin: 2rem 0;
+  margin: 2rem 0 0.875rem;
 }
 
 .top-progresso {
@@ -79,7 +79,7 @@ body.dark #pergunta h2 {
 /* CARDS */
 #container-cards-respostas {
   display: flex;
-  margin: 70px 0;
+  margin: 2rem 0;
   gap: 45px;
 }
 
@@ -177,6 +177,12 @@ body.dark .card-resposta .texto-resposta {
   height: 60px;
   border-radius: 12px;
   background: var(--button-2-bg);
+  color: #3C2F00;
+  font-family: Manrope;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 155%;
   border: none;
   cursor: pointer;
 }
