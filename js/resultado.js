@@ -26,6 +26,6 @@ export function initResultado() {
 
   btnTentarNovamente.onclick = () => {
     sessionStorage.removeItem('personagem');
-    window.location.href = '/pages/quiz.html';
+    window.location.href = 'quiz.html';
   };
 }
