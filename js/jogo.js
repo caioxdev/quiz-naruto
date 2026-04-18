@@ -24,8 +24,11 @@ function carregarPergunta(index) {
   cards.forEach((card, i) => {
     const opcao = pergunta.opcoes[i];
     const textoResposta = card.querySelector(".texto-resposta");
+    const icone = card.querySelector('.fundo-icone img');
 
     textoResposta.textContent = opcao.texto;
+    icone.src = opcao.icone;
+    icone.alt = opcao.texto;
     card.classList.remove("selecionado");
 
     card.onclick = () => {
