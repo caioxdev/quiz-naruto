@@ -80,7 +80,7 @@ export function initQuiz() {
   if (btnAbondonar) {
     btnAbondonar.onclick = () => {
       resetarJogo();
-      swup.navigate(window.location.origin + '/index.html');
+      swup.navigate(window.location.origin + window.location.pathname.split('/pages/')[0] + '/index.html');
     };
   }
 
