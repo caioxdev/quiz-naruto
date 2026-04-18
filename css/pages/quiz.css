@@ -204,3 +204,21 @@ body.dark .card-resposta .texto-resposta {
   text-transform: uppercase;
   margin-top: 22px;
 }
+
+.circulo-1-quiz {
+  width: 573px;
+  height: 573px;
+  background: rgba(154, 95, 0, 0.212);
+  left: -120px;
+  top: 95%;
+  transform: translateY(-50%);
+}
+
+.circulo-2-quiz {
+  width: 400px;
+  height: 384px;
+  background: rgba(255, 0, 17, 0.144);
+  right: -120px;
+  top: 30%;
+  transform: translateY(-50%);
+}

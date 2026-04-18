@@ -3,7 +3,7 @@ html.is-changing body {
 }
 
 .app-container {
-  transition: all .5s;
+  transition: opacity .5s, transform .5s;
 }
 
 html.is-animating.is-rendering .transition-fade {

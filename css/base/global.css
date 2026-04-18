@@ -5,6 +5,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar-track {
@@ -37,4 +38,12 @@ main {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+
+.circulo-decorativo {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+  pointer-events: none;
+  z-index: -1;
 }

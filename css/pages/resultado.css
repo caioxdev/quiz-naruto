@@ -211,3 +211,21 @@ body.dark #topo-resultado h2 {
   color: #E2E0FC;
   background-color: var(--button-3-bg);
 }
+
+.circulo-1-resultado {
+  width: 573px;
+  height: 573px;
+  background: rgba(154, 95, 0, 0.13);
+  left: -120px;
+  top: 40%;
+  transform: translateY(-50%);
+}
+
+.circulo-2-resultado {
+  width: 400px;
+  height: 384px;
+  background: rgba(255, 0, 17, 0.089);
+  right: -120px;
+  top: 100%;
+  transform: translateY(-50%);
+}
