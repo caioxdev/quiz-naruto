@@ -79,8 +79,27 @@ body.dark #topo-resultado h2 {
   line-height: 111%;
   letter-spacing: 0.9px;
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 38px;
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+
+#conteudo-dir #pontuacao-valor {
+  color: black;
+  font-family: 'Noto Serif', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 111%;
+  letter-spacing: 0.9px;
+  margin-bottom: 20px;
+}
+
+body.dark #conteudo-dir #pontuacao-valor {
+  color: white;
+}
+
+#conteudo-dir #pontuacao-valor span {
+  color: #E9C349;
 }
 
 #conteudo-dir #descricao {

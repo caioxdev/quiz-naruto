@@ -21,6 +21,7 @@ export function initResultado() {
 
   const imgPersonagem = document.getElementById('img-personagem');
   const nomePersonagem = document.getElementById('nome-personagem');
+  const pontuacaoValor = document.getElementById('pontos');
   const descricao = document.getElementById('descricao');
   const citacao = document.getElementById('citacao');
   const chakraValor = document.getElementById('chakra-valor');
@@ -30,6 +31,7 @@ export function initResultado() {
   imgPersonagem.src = personagem.imagem;
   imgPersonagem.alt = personagem.nome;
   nomePersonagem.textContent = personagem.nome;
+  pontuacaoValor.textContent = personagem.pontuacao + ' pontos';
   descricao.textContent = personagem.descricao;
   citacao.textContent = personagem.citacao;
   chakraValor.textContent = personagem.chakra;
