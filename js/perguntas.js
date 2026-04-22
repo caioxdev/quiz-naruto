@@ -2,9 +2,7 @@ import { personagens } from "./personagem.js";
 
 export const perguntas = [
   {
-    id: 1,
-    texto:
-      "Diante de uma missão de rank S, qual seria sua estratégia principal?",
+    texto: "Diante de uma missão de rank S, qual seria sua estratégia principal?",
     opcoes: [
       {
         texto: "Uso de genjutsu e furtividade",
@@ -20,7 +18,13 @@ export const perguntas = [
       {
         texto: "Planejamento tático e análise de fraquezas",
         icone: "../assets/icons/cabeca-icone.svg",
-        pontos: { naruto: 1, sasuke: 2, jiraya: 1, itachi: 2, shikamaru: 3 },
+        pontos: {
+          naruto: 1,
+          sasuke: 2,
+          jiraya: 1,
+          itachi: 2,
+          shikamaru: 3,
+        },
       },
       {
         texto: "Ataque frontal com força total",
@@ -36,9 +40,7 @@ export const perguntas = [
     ],
   },
   {
-    id: 2,
-    texto:
-      "O que te motiva a continuar lutando mesmo nos momentos mais difíceis?",
+    texto: "O que te motiva a continuar lutando mesmo nos momentos mais difíceis?",
     opcoes: [
       {
         texto: "Proteger meus amigos e nunca desistir",
@@ -76,7 +78,6 @@ export const perguntas = [
     ],
   },
   {
-    id: 3,
     texto: "Como você lida com um inimigo muito mais forte do que você?",
     opcoes: [
       {
@@ -115,7 +116,6 @@ export const perguntas = [
     ],
   },
   {
-    id: 4,
     texto: "Qual é o seu maior valor como ninja?",
     opcoes: [
       {
@@ -154,7 +154,6 @@ export const perguntas = [
     ],
   },
   {
-    id: 5,
     texto: "Como você prefere passar seu tempo livre?",
     opcoes: [
       {
@@ -193,7 +192,6 @@ export const perguntas = [
     ],
   },
   {
-    id: 6,
     texto: "O que você faria para proteger alguém que ama?",
     opcoes: [
       {
@@ -232,7 +230,6 @@ export const perguntas = [
     ],
   },
   {
-    id: 7,
     texto: "Como você reage ao fracasso?",
     opcoes: [
       {
@@ -271,7 +268,6 @@ export const perguntas = [
     ],
   },
   {
-    id: 8,
     texto: "Qual frase representa melhor sua filosofia de vida?",
     opcoes: [
       {
@@ -310,7 +306,6 @@ export const perguntas = [
     ],
   },
   {
-    id: 9,
     texto: "Qual é sua relação com o passado?",
     opcoes: [
       {
@@ -349,7 +344,6 @@ export const perguntas = [
     ],
   },
   {
-    id: 10,
     texto: "Como você enxerga o conceito de paz?",
     opcoes: [
       {
