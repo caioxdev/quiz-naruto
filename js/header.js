@@ -8,10 +8,10 @@ export const initHeader = () => {
 
 export const restaurarActive = () => {
   const itens = document.querySelectorAll(".item-nav");
-  const paginaAtual = window.location.pathname;
 
-  const isQuiz = paginaAtual.endsWith('quiz.html');
-  const isResultado = paginaAtual.endsWith('resultado.html');
+  const urlAtual = window.location.href;
+  const isQuiz = urlAtual.includes('quiz');
+  const isResultado = urlAtual.includes('resultado');
 
   itens.forEach((item) => {
     item.classList.remove('active');
