@@ -113,8 +113,8 @@ git clone https://github.com/caioxdev/quiz-naruto.git
 
 **Ou**
 
-3. **Pelo GitHub Pages**
-<a href="https://caioxdev.github.io/quiz-naruto/" target="_blank">
+3. **Pela Netlift*
+<a href="https://quiz-naruto.netlify.app/" target="_blank">
   <img src="https://img.shields.io/badge/Ver%20Projeto-Online-orange?style=for-the-badge">
 </a>
 ---
