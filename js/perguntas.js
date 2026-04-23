@@ -1,5 +1,3 @@
-import { personagens } from "./personagem.js";
-
 export const perguntas = [
   {
     texto: "Diante de uma missão de rank S, qual seria sua estratégia principal?",

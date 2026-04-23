@@ -32,7 +32,7 @@ function carregarPergunta(index) {
     card.classList.remove("selecionado");
 
     card.onclick = () => {
-      cards.forEach((c) => c.classList.remove("selecionado"));
+      cards.forEach((card) => card.classList.remove("selecionado"));
       card.classList.add("selecionado");
       respostaSelecionada = opcao;
     };
@@ -52,7 +52,7 @@ function calcularResultado() {
 }
 
 function resetarJogo() {
-  Object.values(personagens).forEach((p) => p.resetar());
+  Object.values(personagens).forEach((personagem) => personagem.resetar());
 }
 
 function proximaPergunta() {
@@ -67,7 +67,7 @@ function proximaPergunta() {
   } else {
     const resultado = calcularResultado();
     sessionStorage.setItem("personagem", JSON.stringify(resultado));
-    window.location.href = "./resultado.html";
+    swup.navigate("./resultado.html");
   }
 }
 
@@ -83,7 +83,7 @@ export function initQuiz() {
   if (btnAbondonar) {
     btnAbondonar.onclick = () => {
       resetarJogo();
-      swup.navigate(window.location.origin + window.location.pathname.split('/pages/')[0] + '/index.html');
+      swup.navigate('/index.html');
     };
   }
 

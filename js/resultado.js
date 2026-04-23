@@ -1,3 +1,5 @@
+import { swup } from './main.js'
+
 export function initResultado() {
   const dados = sessionStorage.getItem('personagem');
 
@@ -39,6 +41,6 @@ export function initResultado() {
 
   btnTentarNovamente.onclick = () => {
     sessionStorage.removeItem('personagem');
-    window.location.href = 'quiz.html';
+    swup.navigate('quiz.html');
   };
 }
