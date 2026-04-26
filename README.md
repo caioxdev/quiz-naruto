@@ -24,6 +24,27 @@ O projeto foi desenvolvido utilizando HTML, CSS e JavaScript, com foco em organi
 
 ---
 
+## 🚀 Como executar
+
+1. **Baixe ou clone o projeto**
+
+```bash
+git clone https://github.com/caioxdev/quiz-naruto.git
+```
+
+2. **Abra o arquivo** `index.html` no navegador
+
+> Nenhuma instalação ou dependência necessária — é só abrir e jogar! 🎮
+
+**Ou**
+
+3. **Pela Netlify**
+<a href="https://quiz-naruto.netlify.app/" target="_blank">
+  <img src="https://img.shields.io/badge/Ver%20Projeto-Online-orange?style=for-the-badge">
+</a>
+
+---
+
 ## 🛠️ Tecnologias
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -96,27 +117,6 @@ QUIZ-NARUTO/
 │
 └── README.md
 ```
-
----
-
-## 🚀 Como executar
-
-1. **Baixe ou clone o projeto**
-
-```bash
-git clone https://github.com/caioxdev/quiz-naruto.git
-```
-
-2. **Abra o arquivo** `index.html` no navegador
-
-> Nenhuma instalação ou dependência necessária — é só abrir e jogar! 🎮
-
-**Ou**
-
-3. **Pela Netlift**
-<a href="https://quiz-naruto.netlify.app/" target="_blank">
-  <img src="https://img.shields.io/badge/Ver%20Projeto-Online-orange?style=for-the-badge">
-</a>
 ---
 
 ## 🖼 Imagens
