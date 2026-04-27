@@ -17,10 +17,19 @@ O projeto foi desenvolvido utilizando HTML, CSS e JavaScript, com foco em organi
 ---
 
 ## 👥 Integrantes
+
 - Ádam Amarildo Guedes Carneiro
 - Arthur Martins Fonseca Dias
 - Caio Seabra de Queiroz
 - Miguel Oliveria Silva
+
+---
+
+## 🤝 Divisão de responsabilidades
+
+A implementação da aplicação foi realizada por **Caio Seabra de Queiroz**, incluindo o desenvolvimento em HTML, CSS e JavaScript.
+
+Os demais integrantes **Ádam Amarildo Guedes Carneiro**, **Arthur Martins Fonseca Dias** e **Miguel Oliveria Silva** foram responsáveis pela concepção do design e prototipação da interface no Figma, definindo layout, cores, tipografia e experiência do usuário.
 
 ---
 
@@ -123,22 +132,50 @@ QUIZ-NARUTO/
 
 ### 🌙 Modo Escuro
 
-<img width="1728" height="1426" alt="RESULTADO - ESCURO - NARUTO" src="https://github.com/user-attachments/assets/b4762641-0636-4863-be9d-a5755f0f44ad" />
-<img width="1728" height="1109" alt="QUESTIONARIO - ESCURO" src="https://github.com/user-attachments/assets/8b698de7-acad-4a56-a130-c4b5919e0340" />
-<img width="1728" height="1934" alt="INICIO - ESCURO" src="https://github.com/user-attachments/assets/1b28648b-0743-4224-bb59-a600e6cb56c6" />
+<p align="center">
+  <img width="800" alt="RESULTADO - ESCURO - NARUTO" src="https://github.com/user-attachments/assets/b4762641-0636-4863-be9d-a5755f0f44ad" />
+</p>
+
+<br>
+
+<p align="center">
+  <img width="800" alt="QUESTIONARIO - ESCURO" src="https://github.com/user-attachments/assets/8b698de7-acad-4a56-a130-c4b5919e0340" />
+</p>
+
+<br>
+
+<p align="center">
+  <img width="800" alt="INICIO - ESCURO" src="https://github.com/user-attachments/assets/1b28648b-0743-4224-bb59-a600e6cb56c6" />
+</p>
 
 #### Card selecionado — efeito neumorfismo
 
-<img width="1728" height="1109" alt="QUESTIONARIO -  ESCURO - CARD CLICADO" src="https://github.com/user-attachments/assets/b298b8d9-0936-4074-a92b-55df8f32dd20" />
+<p align="center">
+  <img width="800" alt="QUESTIONARIO - ESCURO - CARD CLICADO" src="https://github.com/user-attachments/assets/b298b8d9-0936-4074-a92b-55df8f32dd20" />
+</p>
 
 ---
 
 ### ☀️ Modo Claro
 
-<img width="1728" height="1934" alt="INICIO - CLARO" src="https://github.com/user-attachments/assets/3f02669c-d968-4e0e-a3a6-53aee091aaca" />
-<img width="1728" height="1109" alt="QUESTIONARIO - CLARO" src="https://github.com/user-attachments/assets/cdec1b40-ae25-4634-9390-b469a971fa0a" />
-<img width="1728" height="1426" alt="RESULTADO - CLARO - NARUTO" src="https://github.com/user-attachments/assets/1ac167f9-0bf0-4307-98a5-54a4be07dc61" />
+<p align="center">
+  <img width="800" alt="INICIO - CLARO" src="https://github.com/user-attachments/assets/3f02669c-d968-4e0e-a3a6-53aee091aaca" />
+</p>
+
+<br>
+
+<p align="center">
+  <img width="800" alt="QUESTIONARIO - CLARO" src="https://github.com/user-attachments/assets/cdec1b40-ae25-4634-9390-b469a971fa0a" />
+</p>
+
+<br>
+
+<p align="center">
+  <img width="800" alt="RESULTADO - CLARO - NARUTO" src="https://github.com/user-attachments/assets/1ac167f9-0bf0-4307-98a5-54a4be07dc61" />
+</p>
 
 #### Card selecionado — efeito neumorfismo
 
-<img width="1728" height="1109" alt="QUESTIONARIO - CLARO - CARD CLICADO" src="https://github.com/user-attachments/assets/0a00548f-c36e-4e13-bce7-8fdec6626b59" />
+<p align="center">
+  <img width="800" alt="QUESTIONARIO - CLARO - CARD CLICADO" src="https://github.com/user-attachments/assets/0a00548f-c36e-4e13-bce7-8fdec6626b59" />
+</p>
