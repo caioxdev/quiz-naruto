@@ -46,8 +46,8 @@ function registrarResposta() {
 }
 
 function calcularResultado() {
-  return Object.values(personagens).reduce((melhor, atual) =>
-    atual.pontuacao > melhor.pontuacao ? atual : melhor,
+  return Object.values(personagens).reduce((acc, atual) =>
+    atual.pontuacao > acc.pontuacao ? atual : acc
   );
 }
 
