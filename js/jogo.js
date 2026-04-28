@@ -46,9 +46,16 @@ function registrarResposta() {
 }
 
 function calcularResultado() {
-  return Object.values(personagens).reduce((acc, atual) =>
-    atual.pontuacao > acc.pontuacao ? atual : acc
-  );
+  const personagensLista = Object.values(personagens);
+
+  let personagemComMaiorPontuacao = personagensLista[0];
+
+  for (const personagem of personagensLista) {
+    if (personagem.pontuacao > personagemComMaiorPontuacao.pontuacao) {
+      personagemComMaiorPontuacao = personagem;
+    }
+  }
+  return personagemComMaiorPontuacao;
 }
 
 function resetarJogo() {
