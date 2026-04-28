@@ -27,13 +27,3 @@ export const restaurarActive = () => {
     }
   });
 };
-
-export const activeNav = () => {
-  const itens = document.querySelectorAll('.item-nav');
-  itens.forEach(item => {
-    item.classList.remove('active');
-    if (item.getAttribute('data-page') === 'quiz') {
-      item.classList.add('active');
-    }
-  });
-};
