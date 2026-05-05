@@ -16,25 +16,6 @@ O projeto foi desenvolvido utilizando HTML, CSS e JavaScript, com foco em organi
 
 ---
 
-## 👥 Integrantes
-
-- Ádam Amarildo Guedes Carneiro
-- Arthur Martins Fonseca Dias
-- Caio Seabra de Queiroz
-- Miguel Oliveria Silva
-
----
-
-## 🤝 Divisão de responsabilidades
-
-O desenvolvimento da aplicação (HTML, CSS e JavaScript) contou com a participação do grupo, com maior foco na implementação por **Caio Seabra de Queiroz**.
-
-A concepção do design e a prototipação da interface no Figma foram realizadas por **Ádam Amarildo Guedes Carneiro**, **Arthur Martins Fonseca Dias** e **Miguel Oliveria Silva**.
-
-As decisões relacionadas à lógica da aplicação foram discutidas em conjunto entre todos os integrantes.
-
----
-
 ## 🚀 Como executar
 
 1. **Baixe ou clone o projeto**
